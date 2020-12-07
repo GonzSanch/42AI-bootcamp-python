@@ -9,7 +9,7 @@ def main():
         return print("ERROR")
     num = int(sys.argv[1])
     if num == 0:
-       return print("I'm Zero.")
+        return print("I'm Zero.")
     return print("I'm Even") if num % 2 else print("I'm Odd.")
 
 
